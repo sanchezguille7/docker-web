@@ -1,5 +1,7 @@
 FROM nginx
 
+LABEL author="GSM"
+
 WORKDIR /usr/share/nginx/html/
 
 RUN apt update \
